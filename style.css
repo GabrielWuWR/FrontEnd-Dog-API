@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerGaleria{
+    display: column;
+    column-count: 6;
+    padding-top: 100px;
+}
+
+.containerPesquisa{
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+.containerPesquisa input{
+    flex-grow: 1;
+    padding: 12px;
+    font-size: 32px;
+}
+
+.containerPesquisa button{
+    padding: 12px;
+    font-size: 32px;
+}
+
+.foto{
+    width: 100%;
+    margin-bottom: 16px;
+}
